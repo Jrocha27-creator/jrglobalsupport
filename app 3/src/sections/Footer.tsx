@@ -26,7 +26,7 @@ const CONTENT = {
     contactTitle: 'CONTATO',
     contacts: [
       { country: 'Brasil', phone: '+55 62 99616-4242', flag: '/assets/flag-brazil-hd.png' },
-      { country: 'Portugal', phone: '+351 937 175 988', flag: '/assets/flag-portugal-hd.png' },
+      { country: 'Portugal', phone: '+351 937 175 998', flag: '/assets/flag-portugal-hd.png' },
       { country: 'Reino Unido', phone: '+44 7454 323562', flag: '/assets/flag-uk-hd.png' },
     ],
     copyright: '2025 JR Global Support. Todos os direitos reservados.',
@@ -52,7 +52,7 @@ const CONTENT = {
     contactTitle: 'CONTACT',
     contacts: [
       { country: 'Brazil', phone: '+55 62 99616-4242', flag: '/assets/flag-brazil-hd.png' },
-      { country: 'Portugal', phone: '+351 937 175 988', flag: '/assets/flag-portugal-hd.png' },
+      { country: 'Portugal', phone: '+351 937 175 998', flag: '/assets/flag-portugal-hd.png' },
       { country: 'United Kingdom', phone: '+44 7454 323562', flag: '/assets/flag-uk-hd.png' },
     ],
     copyright: '2025 JR Global Support. All rights reserved.',
