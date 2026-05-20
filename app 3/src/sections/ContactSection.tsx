@@ -25,8 +25,8 @@ const CONTENT = {
       {
         country: 'Portugal',
         flag: '/assets/flag-portugal-hd.png',
-        phone: '+351 937 175 988',
-        waLink: 'https://wa.me/351937175988',
+        phone: '+351 937 175 998',
+        waLink: 'https://wa.me/351937175998',
       },
       {
         country: 'Reino Unido',
@@ -56,8 +56,8 @@ const CONTENT = {
       {
         country: 'Portugal',
         flag: '/assets/flag-portugal-hd.png',
-        phone: '+351 937 175 988',
-        waLink: 'https://wa.me/351937175988',
+        phone: '+351 937 175 998',
+        waLink: 'https://wa.me/351937175998',
       },
       {
         country: 'United Kingdom',
