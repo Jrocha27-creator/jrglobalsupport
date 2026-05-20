@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 35% 9%;
+    --foreground: 0 0% 100%;
+    --card: 222 47% 11%;
+    --card-foreground: 0 0% 100%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 43 47% 54%;
+    --primary-foreground: 220 35% 9%;
+    --secondary: 215 25% 27%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 215 25% 27%;
+    --muted-foreground: 215 16% 57%;
+    --accent: 43 47% 54%;
+    --accent-foreground: 220 35% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 25% 27%;
+    --input: 215 25% 27%;
+    --ring: 43 47% 54%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#0B1120] text-white antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-heading {
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+
+  .font-body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  .text-gold {
+    color: #c9a84c;
+  }
+
+  .bg-gold {
+    background-color: #c9a84c;
+  }
+
+  .border-gold {
+    border-color: #c9a84c;
+  }
+
+  .pillar-scene {
+    perspective: 1200px;
+    position: relative;
+    transform-style: preserve-3d;
+    overflow: visible;
+  }
+
+  .pillar-cylinder {
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: spin 25s infinite linear;
+  }
+
+  .pillar-slice {
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(201, 168, 76, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(201, 168, 76, 0.4);
+  }
+}
