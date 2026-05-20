@@ -164,7 +164,7 @@ export default function Footer({ lang }: FooterProps) {
                 className="text-[#64748b] hover:text-[#c9a84c] transition-colors duration-200"
                 aria-label="LinkedIn"
               >
-                <Linkedin size={18} />
+                <Facebook size={18} />
               </a>
               <a
                 href="mailto:contato@jrglobalsupport.com"
