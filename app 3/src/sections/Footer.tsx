@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail } from 'lucide-react';
+import { Instagram, Facebook, Mail } from 'lucide-react';
 
 interface FooterProps {
   lang: 'pt' | 'en';
