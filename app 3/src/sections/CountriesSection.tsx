@@ -21,8 +21,8 @@ const CONTENT = {
         name: 'PORTUGAL',
         flag: '/assets/flag-portugal-hd.png',
         desc: 'Apoio juridico para brasileiros em Portugal e interessados em processos lusitanos. Facilitamos sua adaptacao juridica.',
-        phone: '+351 937 175 988',
-        waLink: 'https://wa.me/351937175988',
+        phone: '+351 937 175 998',
+        waLink: 'https://wa.me/351937175998',
       },
       {
         name: 'REINO UNIDO',
@@ -49,8 +49,8 @@ const CONTENT = {
         name: 'PORTUGAL',
         flag: '/assets/flag-portugal-hd.png',
         desc: 'Legal support for Brazilians in Portugal and those interested in Lusitanian proceedings. We facilitate your legal adaptation.',
-        phone: '+351 937 175 988',
-        waLink: 'https://wa.me/351937175988',
+        phone: '+351 937 175 998',
+        waLink: 'https://wa.me/351937175998',
       },
       {
         name: 'UNITED KINGDOM',
