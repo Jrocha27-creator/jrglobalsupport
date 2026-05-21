@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail, Facebook } from 'lucide-react';
+import { Instagram, Linkedin, Mail, FacebookIcon } from 'lucide-react';
 <div className="flex items-center gap-4 mt-4">
   <a
     href="https://instagram.com/SEUINSTAGRAM"
@@ -21,7 +21,7 @@ import { Instagram, Linkedin, Mail, Facebook } from 'lucide-react';
     className="text-[#64748b] hover:text-[#c9a84c] transition-colors duration-200"
     aria-label="Facebook"
   >
-    <Facebook size={18} />
+    <FacebookIcon size={18} />
   </a>
 
   <a
